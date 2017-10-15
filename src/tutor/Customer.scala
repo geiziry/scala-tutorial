@@ -46,11 +46,11 @@ trait Sortable[A<: Ordered[A]]extends Iterable[A]{
   }
 }
 
-class Customers extends Sortable[CustomerScala]{
-  private val customers=mutable.Set[CustomerScala]()
-def add(customer: CustomerScala): Boolean =customers.add(customer)
-  override def iterator: Iterator[CustomerScala] = customers.iterator
-}
+//class Customers extends Sortable[CustomerScala]{
+//  private val customers=mutable.Set[CustomerScala]()
+//def add(customer: CustomerScala): Boolean =customers.add(customer)
+//  override def iterator: Iterator[CustomerScala] = customers.iterator
+//}
 
 //class CustomersSortableBySpend extends Customers{
 //  override def  sort:List[Customer]= {
