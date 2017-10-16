@@ -1,5 +1,5 @@
 package week4
-package week3._
+package week3.*
 
 trait List[+T] {
   def isEmpty: Boolean
@@ -28,5 +28,5 @@ object List{
 
 object test{
   val x: List[String]= Nil
-  def f(xs: List[NonEmpty])
+//  def f(xs: List[NonEmpty])
 }
