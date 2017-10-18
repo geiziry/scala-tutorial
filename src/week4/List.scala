@@ -12,6 +12,7 @@ trait List[+T] {
 
 class Cons[T](val head: T, val tail: List[T]) extends List[T] {
   override def isEmpty = false
+
 }
 
 object Nil extends List[Nothing] {
